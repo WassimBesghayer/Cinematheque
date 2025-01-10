@@ -1,0 +1,65 @@
+#logo {
+    width: 50px;
+    height: 50px;
+}
+#login {
+    margin: 0 50px;
+}
+nav {
+    background-color: black;
+    color:white
+}
+
+/* Styling the body */
+.body {
+    margin: 10px 5px;
+}
+.card {margin: 40px;}
+.card button {margin: 15px;}
+#rating {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.movie-list-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .abort{
+    background-color: red !important;
+} */
+
+/* styling the footer */
+footer ul{
+    list-style: none;
+}
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer h4, li, svg {
+    color: white;
+}
+.footer-bg {
+    padding-top: 40px;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperboat.com%2Fwp-content%2Fuploads%2F2019%2F11%2Fcinema-04.jpg&f=1&nofb=1&ipt=6058c3df0f969fc6632bef997b6355d553e874e142862b6ad16623b030591e77&ipo=images);
+    background-size: 100% 100%;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer-bg::before {
+    content: '';
+    z-index: -1;
+    opacity: 0.5;
+  }
+  
+.block {
+width: 200px;
+height: 250px;
+}
